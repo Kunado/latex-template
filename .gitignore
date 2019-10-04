@@ -236,3 +236,5 @@ src/tex/*
 # dist directory
 dist/*
 !dist/.gitkeep
+
+.DS_Store

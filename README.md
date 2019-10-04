@@ -1,11 +1,17 @@
 # latex-template
 
-## Usage
+# Usage
 
-```console
-$ wget https://github.com/s4ichi/latex-template/archive/master.zip
-$ unzip master.zip
-$ mv latex-template-master your_project_name
-$ cd your_project_name
-$ ./build.sh
+```
+$ ./compile.sh src/tex/foo.tex
+```
+
+## directory structure
+
+```
+├── compile.sh  # compile a source tex file using docker container.
+├── dist        # compiled .pdf files are generated here.
+└── src         # intermediate files are generated here.
+    └── tex     # locate source .tex files here.
+
 ```
