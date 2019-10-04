@@ -226,7 +226,12 @@ TSWLatexianTemp*
 
 # src directory
 src/*
-!src/.gitkeep
+!src/.latexmkrc
+
+# tex directory
+!src/tex
+src/tex/*
+!src/tex/.gitkeep
 
 # dist directory
 dist/*
